@@ -54,7 +54,8 @@ mostre a área a ser pintada e a quantidade de tinta necessária para o serviço
 
 11) Desenvolva uma lógica que leia os valores de A, B e C de uma equação do segundo grau e mostre o valor de Delta.- OK
 
-12) Crie um programa que leia o preço de um produto, calcule e mostre o seu PREÇO PROMOCIONAL, com 5% de desconto.
+12) Crie um programa que leia o preço de um produto, calcule e mostre o seu PREÇO PROMOCIONAL, com 5% de desconto. - OK
+
 13) Faça um algoritmo que leia o salário de um funcionário, calcule e mostre o 
 seu novo salário, com 15% de aumento.
 14) A locadora de carros precisa da sua ajuda para cobrar seus serviços. Escreva 
