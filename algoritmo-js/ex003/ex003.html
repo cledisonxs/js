@@ -38,13 +38,10 @@
         var funcionario = txtnome.value;
         var salario = Number(txtsalario.value);
 
-
         resultado.style.fontSize = "1.3em"
         resultado.innerHTML = `<p><strong>O nome do funcionário é: ${funcionario}</strong></p><br>`;
-
-        resultado.innerHTML += `<p>
-            <strong>Seu salário é R$ ${salario}</strong>
-            </p>`;
+        
+        resultado.innerHTML += `<p><strong>Seu salário é R$ ${salario.toFixed(2)}</strong></p>`;
 
         
         }

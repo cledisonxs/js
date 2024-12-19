@@ -12,6 +12,6 @@ function calcular(){
 
     res.innerHTML = `<p>Você fumou<strong> ${totalCigarros} cigarros  </strong>!</p>`;
     
-    res.innerHTML += `<p>Já perdeu <strong>${minutosPerdido} minutos</strong> de vida que equivale a<strong> ${diasPerdido} dia (s) a menos de vida</strong></p>`
+    res.innerHTML += `<p>Já perdeu <strong>${minutosPerdido} minutos</strong> de vida que equivale a<strong> ${diasPerdido.toFixed(2)} dia (s) a menos de vida</strong></p>`
 
 }
