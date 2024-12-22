@@ -78,22 +78,27 @@ sabendo que o carro custa R$90 por dia e R$0,20 por Km rodado. - OK
 20) Desenvolva um programa que leia um número inteiro e mostre se ele é PAR ou ÍMPAR. - OK
 
 21) Faça um algoritmo que leia um determinado ano e mostre se ele é ou não 
-BISSEXTO.
+BISSEXTO. - OK
+
 22) Escreva um programa que leia o ano de nascimento de um rapaz e mostre a sua 
 situação em relação ao alistamento militar.
  - Se estiver antes dos 18 anos, mostre em quantos anos faltam para o 
 alistamento.
  - Se já tiver depois dos 18 anos, mostre quantos anos já se passaram do 
-alistamento.
+alistamento. - OK
+
 23) Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar descontos 
 para todos, mas especialmente para mulheres. Faça um programa que leia nome, 
 sexo e o valor das compras do cliente e calcule o preço com desconto. Sabendo 
 que:
  - Homens ganham 5% de desconto
  - Mulheres ganham 13% de desconto
+
+ - OK
+ 
 24) Faça um algoritmo que pergunte a distância que um passageiro deseja 
 percorrer em Km. Calcule o preço da passagem, cobrando R$0.50 por Km para 
-viagens até 200Km e R$0.45 para viagens mais longas.
+viagens até 200Km e R$0.45 para viagens mais longas. -
 25) [DESAFIO] Crie um programa que leia o tamanho de três segmentos de reta. 
 Analise seus comprimentos e diga se é possível formar um triângulo com essas 
 retas. Matematicamente, para três segmentos formarem um triângulo, o comprimento 
