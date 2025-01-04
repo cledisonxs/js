@@ -153,6 +153,8 @@ jogador vai tentar descobrir qual foi o valor sorteado.
 
 33) Escreva um programa para aprovar ou não o empréstimo bancário para a compra de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar. Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado.
 
+-OK
+
 34) O Índice de Massa Corpórea (IMC) é um valor calculado baseado na altura e no 
 peso de uma pessoa. De acordo com o valor do IMC, podemos classificar o 
 indivíduo dentro de certas faixas.
@@ -196,3 +198,5 @@ calcule e mostre quantos pontos ela teve e quanto dinheiro ela conseguiu ganhar.
  - menos de 20 anos de empresa: +3%
  - de 20 até 30 anos de empresa: +13%
  - mais de 30 anos de empresa: +25%
+
+ -OK

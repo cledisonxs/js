@@ -36,22 +36,22 @@ function calcular(){
             }
 
     }else if(sexo[1].checked){
-        var genero = "Mulher"
-        res.innerHTML = `<p>Gênero do Funcionário:<strong> ${genero}!</strong></p
-        >`;
+            var genero = "Mulher"
+            res.innerHTML = `<p>Gênero do Funcionário:<strong> ${genero}!</strong></p
+            >`;
 
-        if(anos_trabalhado < 15){
-            var salario_novo = salario + (salario * 5 / 100);
-            res.innerHTML += `<p>Você trabalha na empresa a ${anos_trabalhado} ano (s). O seu salário atual é de R$ ${salario.toFixed(2)}. Com o reajuste, seu novo salário é de R$  ${salario_novo.toFixed(2)}</p>`
+            if(anos_trabalhado < 15){
+                var salario_novo = salario + (salario * 5 / 100);
+                res.innerHTML += `<p>Você trabalha na empresa a ${anos_trabalhado} ano (s). O seu salário atual é de R$ ${salario.toFixed(2)}. Com o reajuste, seu novo salário é de R$  ${salario_novo.toFixed(2)}</p>`
 
-        }else if(anos_trabalhado >= 15 && anos_trabalhado <= 20){
-            var salario_novo = salario + (salario * 12 / 100);
-            res.innerHTML += `<p>Você trabalha na empresa a ${anos_trabalhado} ano (s). O seu salário atual é de R$ ${salario.toFixed(2)}. Com o reajuste, seu novo salário é de R$  ${salario_novo.toFixed(2)}</p>`
+            }else if(anos_trabalhado >= 15 && anos_trabalhado <= 20){
+                var salario_novo = salario + (salario * 12 / 100);
+                res.innerHTML += `<p>Você trabalha na empresa a ${anos_trabalhado} ano (s). O seu salário atual é de R$ ${salario.toFixed(2)}. Com o reajuste, seu novo salário é de R$  ${salario_novo.toFixed(2)}</p>`
 
-        }else if(anos_trabalhado > 20){
-            var salario_novo = salario + (salario * 23 / 100);
-            res.innerHTML += `<p>Você trabalha na empresa a ${anos_trabalhado} ano (s). O seu salário atual é de R$ ${salario.toFixed(2)}. Com o reajuste, seu novo salário é de R$  ${salario_novo.toFixed(2)}</p>`
-        }
+            }else if(anos_trabalhado > 20){
+                var salario_novo = salario + (salario * 23 / 100);
+                res.innerHTML += `<p>Você trabalha na empresa a ${anos_trabalhado} ano (s). O seu salário atual é de R$ ${salario.toFixed(2)}. Com o reajuste, seu novo salário é de R$  ${salario_novo.toFixed(2)}</p>`
+            }
 
     }
 }
