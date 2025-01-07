@@ -150,7 +150,9 @@ de triângulo será formado:
  
 31) [DESAFIO] Crie um jogo de JoKenPo (Pedra-Papel-Tesoura)
 
-32) [DESAFIO] Crie um jogo onde o computador vai sortear um número entre 1 e 5 o jogador vai tentar descobrir qual foi o valor sorteado.
+<-----xDEPOIS------->
+32) [DESAFIO] Crie um jogo onde o computador vai sortear um número entre 1 e 5 o jogador vai tentar descobrir qual foi o valor sorteado. 
+<-----xDEPOIS------->
 
 33) Escreva um programa para aprovar ou não o empréstimo bancário para a compra de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar. Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado.
 
@@ -175,6 +177,8 @@ Obs: O IMC é calculado pela expressão peso/altura² (peso dividido pelo quadra
  - Carros de luxo (aluguel de R$150 por dia)
  - Até 200Km percorridos: R$0,30 por Km
  - Acima de 200Km percorridos: R$0,25 por Km
+
+ -OK
 
 36) Um programa de vida saudável quer dar pontos atividades físicas que podem 
 ser trocados por dinheiro. O sistema funciona assim:
