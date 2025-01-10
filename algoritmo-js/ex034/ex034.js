@@ -16,22 +16,23 @@ function imc(){
 
     res.innerHTML = `${imc.toFixed(2)}`;
 
-    if(imc < 18.5){
-        res.innerHTML = `Você tem ${altura.toFixed(2)} m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}. Você está ABAIXO DO PESO IDEAL!`;
+    //imc > 40 Você está com OBESIDADE MÓRBIDA!
+    if(imc > 40){
+        res.innerHTML = `Você tem ${altura.toFixed(2)} m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está com OBESIDADE MÓRBIDA!`;
 
-    }else if(imc >= 18.5 && imc <= 25){
-        res.innerHTML = `Você tem ${altura.toFixed(2)}m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está com o PESO IDEAL!`;
+    }else if(imc <= 40 && imc > 30  ){
+        res.innerHTML = `Você tem ${altura.toFixed(2)}m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está com OBESIDADE!`;
 
 
-    }else if(imc > 25 && imc <= 30){
+    }else if(imc <= 30 && imc > 25 ){
         res.innerHTML = `Você tem ${altura.toFixed(2)}m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está com SOBREPESO!`;
 
     }
-    else if(imc > 30 && imc <= 40){
-        res.innerHTML = `Você tem ${altura.toFixed(2)}m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está com OBESIDADE! `;
+    else if(imc <= 25 && imc >= 18.5){
+        res.innerHTML = `Você tem ${altura.toFixed(2)}m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está no PESO IDEAL !`;
 
-    }else if(imc > 40){
-        res.innerHTML = `Você tem ${altura.toFixed(2)}m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está com OBESIDADE MÓRBIDA!`;
+    }else {
+        res.innerHTML = `Você tem ${altura.toFixed(2)}m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está ABAIXO DO PESO IDEAL!`;
     }
 
 
