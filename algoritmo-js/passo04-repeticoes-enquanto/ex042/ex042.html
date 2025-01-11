@@ -32,16 +32,23 @@
         let div = document.getElementById('div');
         div.addEventListener('click',clique);
 
-        function clique(){
-            let num = document.getElementById('txtn');
-            let res = document.querySelector('p#res');
-            let n = Number(num.value);
-            
+    function clique(){
+        let num = document.getElementById('txtn');
+        let res = document.querySelector('p#res');
+        let n = Number(num.value);
+
+        if(num.value.length == 0){
+            alert('[ERRO], Digite um numero')
+        } else { 
+            res.innerHTML = '';
             let c = 1;
             while(c <= n){
-                res.innerHTML += `${c} `;
+                res.innerHTML += `${c} \u{1F455}`;
+                c++;
             }
-        }
+            res.innerHTML += `Acabou! `;
+    }
+}
     </script>
 </body>
 </html>
