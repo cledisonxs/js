@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo</title>
+    <style>
+        div{
+            margin: auto;
+            background-color: antiquewhite;
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>43) Desenvolva um algoritmo que mostre uma contagem regressiva de 30 até 1, marcando os números que forem divisíveis por 4, exatamente como mostrado abaixo:30 29 [28] 27 26 25 [24] 23 22 21 [20] 19 18 17 [16]...</h1>
+    <div>
+        <p id="res">
+
+        </p>
+    </div>
+
+    <script>
+        let res = document.getElementById('res');
+        let c = 30;
+        while( c >= 1){
+            res.innerHTML += `${c} `;
+            c++
+        }
+    </script>
+</body>
+</html>
