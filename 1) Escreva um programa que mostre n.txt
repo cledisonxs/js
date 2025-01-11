@@ -227,8 +227,7 @@ PASSO 04 – REPETIÇÕES ENQUANTO
 41) Desenvolva um programa que mostre na tela a seguinte contagem:
 100 95 90 85 80 ... 0 Acabou!; - OK
 
-42) Faça um algoritmo que pergunte ao usuário um número inteiro e positivo 
-qualquer e mostre uma contagem até esse valor:
+42) Faça um algoritmo que pergunte ao usuário um número inteiro e positivo qualquer e mostre uma contagem até esse valor:
 Ex: Digite um valor: 35
 Contagem: 1 2 3 4 5 6 7 ... 33 34 35 Acabou!
 43) Desenvolva um algoritmo que mostre uma contagem regressiva de 30 até 1, marcando os números que forem divisíveis por 4, exatamente como mostrado abaixo:
