@@ -243,8 +243,9 @@ Contagem: 3 5 7 9 Acabou! -OK;
 situação. - OK
 
 46) Crie um programa que calcule e mostre na tela o resultado da soma entre 6 + 8 + 10 + 12 + 14 + ... + 98 + 100. -OK 
-47) Desenvolva um aplicativo que mostre na tela o resultado da expressão 500 + 
-450 + 400 + 350 + 300 + ... + 50 + 0
+
+47) Desenvolva um aplicativo que mostre na tela o resultado da expressão 500 + 450 + 400 + 350 + 300 + ... + 50 + 0 - OK
+
 48) Faça um programa que leia 7 números inteiros e no final mostre o somatório 
 entre eles.
 49) Crie um programa que leia 6 números inteiros e no final mostre quantos deles 
