@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algoritmo</title>
+    <style>
+        body{
+            background-image: url(/algoritmo-js/imagens/wallpaper004.jpg);
+           
+           
+        }
+    </style>
 </head>
 <body>
     <h1>49) Crie um programa que leia 6 números inteiros e no final mostre quantos deles são pares e quantos são ímpares.</h1>
 
-        <h2>!Este exercício foi feito utilizando prompt, diferente dos outros exercícios em que eu juntei html e js</h2>
+        <h2>Este exercício foi feito utilizando prompt, diferente dos outros exercícios em que eu juntei html e js!</h2>
 
         <script>
             let par = 0;
@@ -17,9 +24,9 @@
             while(c <= 6){
                 let num = parseInt(prompt('Digite um número:'));
                 if (num % 2 == 0){
-                    par = num;
+                    par = par + 1;
                 } else {
-                    impar = num;
+                    impar = impar + 1;
                 }
                 c++;
             }
