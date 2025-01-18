@@ -20,7 +20,7 @@ function imc(){
     if(imc > 40){
         res.innerHTML = `Você tem ${altura.toFixed(2)} m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está com OBESIDADE MÓRBIDA!`;
 
-    }else if(imc <= 40 && imc > 30  ){
+    }else if( imc > 30  ){
         res.innerHTML = `Você tem ${altura.toFixed(2)}m de altura e pesa ${peso}kg. Seu imc é de ${imc.toFixed(2)}.Você está com OBESIDADE!`;
 
 

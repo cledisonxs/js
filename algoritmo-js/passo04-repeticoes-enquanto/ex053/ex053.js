@@ -22,10 +22,9 @@ function doisclique(){
 
         }else if(sexo.toLocaleUpperCase() == 'M'){
             homens = homens + 1;
-            //?tenho ciência que poderia ter usado logo só o else, mas estou testando a expressão lowercase;
+            //?tenho ciência que poderia ter usado logo só o else, mas estou testando a expressão uppercase e lowercase;
             soma_homens = soma_homens + idade;
         }
-
         soma_geral =  soma_geral + idade;
         c++;
     }
