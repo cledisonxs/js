@@ -33,25 +33,19 @@ function doisclique(){
     let media_homens = soma_homens / homens;
 
 
-    res.innerHTML += `<strong>
-        <p>A quantidade de homens cadastrados é: ${homens}</p>
-    </strong>`;
+    res.innerHTML += `
+    <p><strong>A quantidade de homens cadastrados é: ${homens}</strong></p>
 
-    res.innerHTML += `<strong>
-        <p>A quantidade de mulheres cadastradas é: ${mulheres}</p>
-    </strong>`;
+    <p><strong>A quantidade de mulheres cadastradas é: ${mulheres}</strong></p>
 
-    res.innerHTML += `<p>A soma total das idades é: ${soma_geral}</p>`;
+    <p>A soma total das idades é: ${soma_geral}</p>
 
-    res.innerHTML += `<strong>
-        <p>A média de idade do grupo é: ${media_grupo.toFixed(2)}</p>
-    </strong>`;
+    <p><strong>A média de idade do grupo é: ${media_grupo.toFixed(2)}</strong></p>
 
-    res.innerHTML += `<p>A soma total das idades dos homens é: ${soma_homens}</p>`
+    <p>A soma total das idades dos homens é: ${soma_homens}</p>
 
-    res.innerHTML += `<strong><p>A média da idade dos homens é: ${media_homens.toFixed(2)}</p></strong>`;
+    <p><strong>A média da idade dos homens é: ${media_homens.toFixed(2)}</strong></p>
 
-    res.innerHTML += `<strong>
-        <p>A quantidade de mulheres acima de 20 anos é: ${mulher_20}</p>
-    </strong>`;
+    <p><strong>A quantidade de mulheres acima de 20 anos é: ${mulher_20}</p></strong>
+    `;
 }
