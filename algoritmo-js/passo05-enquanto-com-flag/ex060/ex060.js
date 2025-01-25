@@ -54,7 +54,7 @@ function display() {
     let mediaIdadeGrupo = somaIdadeGrupo / (homens + mulheres);
 
     res.innerHTML = `
-    <p>Foram cadastradas ${homens} homen(s) e ${mulheres} mulhere(s)</p>
+    <p>Foram cadastradas ${homens} homen(s) e ${mulheres} mulher(es)</p>
     <p>A soma de todas as idades entre homens e mulheres é ${somaIdadeGrupo}</p>
     <p>O nome da pessoa mais velha é: ${nomeMaisVelha}</p>
     <p>A média de idade do grupo é ${mediaIdadeGrupo.toFixed(2)}</p>
@@ -63,7 +63,7 @@ function display() {
         res.innerHTML += `não foram registradas mulheres`;
     }else{
         res.innerHTML += `
-        <p>Tem ${mulheresMenos18} mulhere(s) com menos de 18 anos</p>
+        <p>Tem ${mulheresMenos18} mulher(es) com menos de 18 anos</p>
         <p>O nome da mulher mais jovem é: ${nomeMulherMaisJovem}</p>
         `
     }
