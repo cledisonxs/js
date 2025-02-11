@@ -3,7 +3,7 @@ let numeroSorteado = parseInt(Math.random() * 5 + 1);
 console.log(numeroSorteado)
 
 function sorteio() {
-    n = Number(num.value)
+    let n = Number(num.value)
     if(n == numeroSorteado){
         alert(`VOCÊ ACERTOU,PARABÉNS!. O número sorteado é ${numeroSorteado}`)
     } else if ( n > numeroSorteado) {
