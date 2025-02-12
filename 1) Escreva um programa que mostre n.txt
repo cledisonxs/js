@@ -414,31 +414,31 @@ PASSO 08 – VETORES
 
 71) Faça um programa que preencha automaticamente um vetor numérico com 8 posições, conforme abaixo:
 999 999 999 999 999 999 999 999
-0 1 2 3 4 5 6 7
+0 1 2 3 4 5 6 7 
+
+-OK
 
 72) Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 10 posições, conforme abaixo:
 5 10 15 20 25 30 35 40 45 50
 0 1 2 3 4 5 6 7 8 9
 
-73) Crie um programa que preencha automaticamente (usando lógica, não apenas 
-atribuindo diretamente) um vetor numérico com 10 posições, conforme abaixo:
+-OK
+
+73) Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 10 posições, conforme abaixo:
 9 8 7 6 5 4 3 2 1 0
 0 1 2 3 4 5 6 7 8 9
 
-74) Crie um programa que preencha automaticamente (usando lógica, não apenas 
-atribuindo diretamente) um vetor numérico com 10 posições, conforme abaixo:
+-OK
+
+74) Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 10 posições, conforme abaixo:
 5 3 5 3 5 3 5 3 5 3
 0 1 2 3 4 5 6 7 8 9
 
-75) Crie um programa que preencha automaticamente (usando lógica, não apenas 
-atribuindo diretamente) um vetor numérico com 15 posições com os primeiros 
-elementos da sequência de Fibonacci:
+75) Crie um programa que preencha automaticamente (usando lógica, não apenas atribuindo diretamente) um vetor numérico com 15 posições com os primeiros elementos da sequência de Fibonacci:
 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
-76) Crie um programa que preencha automaticamente um vetor numérico com 7
-números gerados aleatoriamente pelo computador e depois mostre os valores 
-gerados na tela.
+76) Crie um programa que preencha automaticamente um vetor numérico com 7 números gerados aleatoriamente pelo computador e depois mostre os valores gerados na tela.
 
 77) Faça um programa que leia 7 nomes de pessoas e guarde-os em um vetor. No 
 final, mostre uma listagem com todos os nomes informados, na ordem inversa 
@@ -472,8 +472,7 @@ d) Em que posições a maior nota aparece
 aleatórios (entre 0 e 99) gerados pelo computador. Logo em seguida, mostre os 
 números gerados e depois coloque o vetor em ordem crescente, mostrando no final os valores ordenados.
 
-84) Crie um programa que leia o nome e a idade de 9 pessoas e guarde esses 
-valores em dois vetores, em posições relacionadas. No final, mostre uma listagem contendo apenas os dados das pessoas menores de idade.
+84) Crie um programa que leia o nome e a idade de 9 pessoas e guarde esses valores em dois vetores, em posições relacionadas. No final, mostre uma listagem contendo apenas os dados das pessoas menores de idade.
 
 85) Faça um algoritmo que leia o nome, o sexo e o salário de 5 funcionários e 
 guarde esses dados em três vetores. No final, mostre uma listagem contendo 
